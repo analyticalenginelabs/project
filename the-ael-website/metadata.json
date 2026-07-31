@@ -1,6 +1,6 @@
 {
-  "name": "Analytical Engine Labs",
-  "description": "Official company showcase and research portal for Analytical Engine Labs (AEL), creator of AEL-QA88 Synapse AI v1.88.4, Obra Maestro Suite, WASM Vault Cryptography, and Edge AI Deployer, with complete GPLv3 and Commercial Hybrid Shield licensing specifications.",
+  "name": "Analytical Engine Website",
+  "description": "Official showcase and research portal for the Analytical Engine Website, showcasing AEL-QA88 Synapse AI v1.88.4, Obra Maestro Suite, WASM Vault Cryptography, and Edge AI Deployer, with complete GPLv3 and Commercial Hybrid Shield licensing specifications.",
   "requestFramePermissions": [],
   "majorCapabilities": [
     "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"

@@ -93,13 +93,13 @@ export const LicensingHubSection: React.FC<LicensingHubSectionProps> = ({
           <div className="space-y-2">
             <div className="flex items-center space-x-2 text-cyan-400 font-mono text-xs font-bold uppercase tracking-widest">
               <Scale className="w-4 h-4 text-cyan-400" />
-              <span>Analytical Engine Labs // Licensing & Compliance Center</span>
+              <span>Analytical Engine Website // Licensing & Compliance Center</span>
             </div>
             <h2 className="text-2xl sm:text-3xl font-black text-white uppercase tracking-tight font-sans">
               Dual-Path Licensing & Enterprise Shield Framework
             </h2>
             <p className="text-xs text-slate-300 max-w-3xl leading-relaxed font-sans">
-              Analytical Engine Labs enforces a transparent dual-licensing strategy. Open-source derivatives are governed by the GNU General Public License v3 (GPLv3). Commercial or proprietary applications utilize the Tier II Commercial Hybrid Shield to bypass copyleft constraints.
+              Analytical Engine Website enforces a transparent dual-licensing strategy. Open-source derivatives are governed by the GNU General Public License v3 (GPLv3). Commercial or proprietary applications utilize the Tier II Commercial Hybrid Shield to bypass copyleft constraints.
             </p>
           </div>
 

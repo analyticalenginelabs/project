@@ -61,7 +61,7 @@ export const Header: React.FC<HeaderProps> = ({
             <div>
               <div className="flex items-center space-x-2">
                 <span className="font-black text-lg tracking-tight font-sans uppercase">
-                  Analytical Engine Labs
+                  Analytical Engine Website
                 </span>
                 <span className="px-2 py-0.5 text-[9px] font-mono font-bold rounded bg-slate-800 text-slate-300 border border-slate-700">
                   AEL

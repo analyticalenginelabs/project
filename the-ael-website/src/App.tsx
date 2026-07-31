@@ -66,7 +66,7 @@ export default function App() {
 
       {/* Main Container Viewport */}
       <main className="flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 py-6 space-y-8 relative z-10">
-        {/* Tab 0: Analytical Engine Labs Company Showcase & Portfolio */}
+        {/* Tab 0: Analytical Engine Website Showcase & Portfolio */}
         {activeTab === 'company' && (
           <CompanySection
             onNavigateTab={(tab) => setActiveTab(tab)}
@@ -171,7 +171,7 @@ export default function App() {
                 theme === 'blackwell' ? 'bg-amber-400' : 'bg-blue-500'
               }`}></span>
               <span className="font-semibold text-slate-300">
-                Analytical Engine Labs (AEL) • {SYNAPSE_BLUEPRINT.document_title} v{SYNAPSE_BLUEPRINT.version}
+                Analytical Engine Website (AEL) • {SYNAPSE_BLUEPRINT.document_title} v{SYNAPSE_BLUEPRINT.version}
               </span>
             </div>
 

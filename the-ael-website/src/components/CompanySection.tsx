@@ -118,7 +118,7 @@ export const CompanySection: React.FC<CompanySectionProps> = ({
       category: '12-Slide Executive Brief',
       icon: FileText,
       badge: '12 Slides',
-      description: 'Interactive slide presentation detailing Analytical Engine Labs\' zero-cloud vision, technical stack, and market strategy.',
+      description: 'Interactive slide presentation detailing Analytical Engine Website\'s zero-cloud vision, technical stack, and market strategy.',
       metrics: 'Executive Summary • Technical Roadmap • Market Fit',
       actionText: 'Launch Presentation Deck'
     },
@@ -145,7 +145,7 @@ export const CompanySection: React.FC<CompanySectionProps> = ({
         <div className="relative z-10 max-w-4xl space-y-4">
           <div className="flex flex-wrap items-center gap-2">
             <span className={`px-2.5 py-1 rounded text-xs font-mono font-bold uppercase tracking-wider border ${primaryBadgeClass}`}>
-              Analytical Engine Labs (AEL)
+              Analytical Engine Website
             </span>
             <span className="text-xs font-mono text-slate-400">• Official Corporate & Research Portal</span>
           </div>
@@ -155,7 +155,7 @@ export const CompanySection: React.FC<CompanySectionProps> = ({
           </h1>
 
           <p className="text-sm text-slate-300 leading-relaxed font-sans max-w-3xl">
-            Analytical Engine Labs (AEL) is an independent AI research laboratory dedicated to building high-throughput on-device artificial intelligence and cryptographic software. We liberate AI compute from high-cost centralized cloud data centers, delivering air-gapped, zero-latency neural intelligence directly to client hardware.
+            Analytical Engine Website is an independent AI research laboratory dedicated to building high-throughput on-device artificial intelligence and cryptographic software. We liberate AI compute from high-cost centralized cloud data centers, delivering air-gapped, zero-latency neural intelligence directly to client hardware.
           </p>
 
           {/* Quick Metrics Bar */}
@@ -217,7 +217,7 @@ export const CompanySection: React.FC<CompanySectionProps> = ({
           <div>
             <h2 className="text-xs font-bold uppercase tracking-widest text-cyan-400 flex items-center gap-2 font-mono">
               <Layers className="w-4 h-4" />
-              <span>Analytical Engine Labs Portfolio & Breakthroughs</span>
+              <span>Analytical Engine Website Portfolio & Breakthroughs</span>
             </h2>
             <h3 className="text-xl font-black uppercase text-white tracking-tight font-sans mt-0.5">
               Complete Works & Technology Showcase
@@ -283,7 +283,7 @@ export const CompanySection: React.FC<CompanySectionProps> = ({
         <div className="flex items-center justify-between border-b border-slate-800 pb-3">
           <div className="flex items-center space-x-2 text-cyan-400 font-mono text-xs font-bold uppercase tracking-widest">
             <FileText className="w-4 h-4" />
-            <span>Analytical Engine Labs Technical Whitepapers & Research</span>
+            <span>Analytical Engine Website Technical Whitepapers & Research</span>
           </div>
 
           <button

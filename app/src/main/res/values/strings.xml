@@ -39,7 +39,7 @@
     </string>
     <string name="menu_licensing">Licensing</string>
     <string name="licensing_title">AEL Licensing Hub</string>
-    <string name="licensing_dual_model_desc">Analytical Engine Labs enforces a transparent dual-licensing strategy. Open-source derivatives are governed by the GNU GPLv3, while commercial applications utilize the Tier II Commercial Hybrid Shield.</string>
+    <string name="licensing_dual_model_desc">Analytical Engine Website enforces a transparent dual-licensing strategy. Open-source derivatives are governed by the GNU GPLv3, while commercial applications utilize the Tier II Commercial Hybrid Shield.</string>
     <string name="licensing_path_a_title">Path A: GNU GPLv3</string>
     <string name="licensing_path_a_desc">Free for academic, personal, and open-source applications. All derivative work must remain open source.</string>
     <string name="licensing_path_b_title">Path B: Commercial Hybrid Shield</string>
