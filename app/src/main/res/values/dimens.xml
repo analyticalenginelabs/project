@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Analytical Engine Labs (AEL) - Tier II Commercial Hybrid Shield License
+  License ID: AEL-COMM-2026-HYBRID
+
+  Licensed exclusively under the Analytical Engine Labs Commercial
+  Hybrid Shield Agreement for proprietary, closed-source, or monetized deployment.
+
+  Copyleft obligations under GNU GPLv3 are waived for this build instance.
+  Confidential & Proprietary - Analytical Engine Labs
+-->
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="fragment_horizontal_margin">24dp</dimen>
+    <dimen name="fragment_vertical_margin">24dp</dimen>
+
+    <dimen name="card_corner_radius">16dp</dimen>
+    <dimen name="card_elevation">2dp</dimen>
+
+    <dimen name="item_transform_image_length">56dp</dimen>
+    <dimen name="item_spacing">12dp</dimen>
+
+    <dimen name="reflow_text_block_max_percent">1</dimen>
+    <dimen name="reflow_text_block_horizontal_gap">8dp</dimen>
+    <dimen name="reflow_text_title_size">24sp</dimen>
+    <dimen name="reflow_text_description_size">14sp</dimen>
+
+    <dimen name="nav_header_height">180dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+</resources>

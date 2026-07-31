@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Analytical Engine Labs (AEL) - Tier II Commercial Hybrid Shield License
+  License ID: AEL-COMM-2026-HYBRID
+
+  Licensed exclusively under the Analytical Engine Labs Commercial
+  Hybrid Shield Agreement for proprietary, closed-source, or monetized deployment.
+
+  Copyleft obligations under GNU GPLv3 are waived for this build instance.
+  Confidential & Proprietary - Analytical Engine Labs
+-->
+<androidx.recyclerview.widget.RecyclerView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/recyclerview_transform"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layoutManager="LinearLayoutManager"
+    tools:context=".ui.transform.TransformFragment" />

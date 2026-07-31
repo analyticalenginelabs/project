@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Analytical Engine Labs (AEL) - Tier II Commercial Hybrid Shield License
+  License ID: AEL-COMM-2026-HYBRID
+
+  Licensed exclusively under the Analytical Engine Labs Commercial
+  Hybrid Shield Agreement for proprietary, closed-source, or monetized deployment.
+
+  Copyleft obligations under GNU GPLv3 are waived for this build instance.
+  Confidential & Proprietary - Analytical Engine Labs
+-->
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_transform">
+
+    <fragment
+        android:id="@+id/nav_transform"
+        android:name="com.example.website.ui.transform.TransformFragment"
+        android:label="@string/menu_transform"
+        tools:layout="@layout/fragment_transform" />
+
+    <fragment
+        android:id="@+id/nav_reflow"
+        android:name="com.example.website.ui.reflow.ReflowFragment"
+        android:label="@string/menu_reflow"
+        tools:layout="@layout/fragment_reflow" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.website.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_downloads"
+        android:name="com.example.website.ui.downloads.DownloadsFragment"
+        android:label="@string/menu_downloads"
+        tools:layout="@layout/fragment_downloads" />
+
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="com.example.website.ui.settings.SettingsFragment"
+        android:label="@string/menu_settings"
+        tools:layout="@layout/fragment_settings">
+        <action
+            android:id="@+id/action_nav_settings_to_nav_licensing"
+            app:destination="@id/nav_licensing" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_licensing"
+        android:name="com.example.website.ui.settings.LicensingFragment"
+        android:label="@string/menu_licensing"
+        tools:layout="@layout/fragment_licensing" />
+</navigation>
